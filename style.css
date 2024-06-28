@@ -1,0 +1,169 @@
+/* CSS Reset */
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* Navbar Styles */
+header{
+    height: 100vh;
+    background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.8) 100%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.8) 100%),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/51c1d7f7-3179-4a55-93d9-704722898999/be90e543-c951-40d0-9ef5-e067f3e33d16/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px #232323 solid;
+}
+
+header .navbar{
+    margin:0 125px;
+    padding: 24px 48px;
+    background-color: transparent !important;
+}
+
+header .navbar .language-option,footer .language-option{
+    padding:0 15px;
+    border: 0.1px solid rgba(128,128,128,0.7);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+    max-width: 120px;
+}
+
+header .navbar .language-option select, footer .language-option select{
+    appearance: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+header .navbar form button{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1;
+    cursor: pointer;
+}
+
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50% -50%);
+}
+
+.hero-section .main-title h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-section h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero-section p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-section input,.accordion input {
+    min-width: 400px;
+    padding: 16px 8px;
+    background-color: #8781d731;
+    border: 0.1px solid rgba(128,128,128,0.7);
+    border-radius: 5px;
+    outline: none;
+}
+
+.hero-section button,.accordion .accordion-btn{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 11px 20px;
+    font-size: 24px;
+    font-weight: 400;
+    transition : ease-in-out 0.2s all;
+}
+
+.hero-section button:hover{
+    background-color:  rgb(181, 10, 18);
+}
+
+.features{
+    height: 75vh;
+    border-bottom: 10px #232323 solid;
+}
+
+
+.features h1{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 580px;
+
+}
+
+
+.features p{
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 580px;
+}
+
+.features video{
+    display: inline-block;
+    object-fit: cover;
+}
+
+.accordion {
+    padding-top: 72px;
+}
+
+.accordion .accordion-item{
+    background-color: #232323;
+    padding: 24px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.accordion button{
+    border: none;
+    background-color: #232323;
+    color: white;
+    padding: 0;
+    font-size: 32px;
+    outline: none;
+}
+
+.accordion-wrapper {
+   border-bottom: 10px #232323 solid;
+}
+
+/* Footer section */
+.footer{
+    padding: 0 48px;
+    margin: 72px 125px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .grid-item{
+    text-decoration: underline;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
